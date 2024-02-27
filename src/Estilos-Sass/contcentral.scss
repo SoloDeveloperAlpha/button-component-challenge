@@ -1,0 +1,57 @@
+@import '../Estilos-Sass/base/base';
+
+.cont-central{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 4em;
+  gap: 2em;
+  >h1{
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .fila-botones{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8em;
+    .fb1c1,.fb1c2{
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+  }
+  .fila-botones2{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8em;
+    .fb1c1,.fb1c2{
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+  }
+  .fila-botones3{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8em;
+    .fb1c1,.fb1c2{
+      width: 8em;
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+  }
+}

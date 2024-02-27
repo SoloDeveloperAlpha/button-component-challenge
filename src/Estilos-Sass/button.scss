@@ -1,0 +1,120 @@
+@import '../Estilos-Sass/base/base';
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"');
+
+
+.default,.default2{
+  width: 81px;
+  height: 36px;
+  display: grid;
+  place-content: center;
+  border-radius: 5px;
+  background-color: var(--ColorDef1);
+  color: var(--Font-Color2);
+  box-shadow: 0 2px 3px #333333 20%;
+  cursor:pointer;
+  font-family: var(--Font-Noto);
+  font-weight: 500;
+}
+
+.default2:hover,.default2:focus{
+  background-color: var(--ColorDef2);
+  color: var(--Font-Color2);
+}
+
+.outline,.outline2{
+  width: 81px;
+  height: 36px;
+  display: grid;
+  place-content: center;
+  border-radius: 5px;
+  border: 1px solid var(--ColorDef3);
+  color: var(--ColorDef3);
+  box-shadow: 0 2px 3px #333333 20%;
+  cursor:pointer;
+  font-family: var(--Font-Noto);
+  font-weight: 500;
+}
+
+
+.outline2:hover,.outline2:focus{
+  background-color: var(--ColorDef4);
+}
+
+.text,.text2{
+  width: 81px;
+  height: 36px;
+  display: grid;
+  place-content: center;
+  border-radius: 5px;
+  color: var(--ColorDef3);
+  box-shadow: 0 2px 3px #333333 20%;
+  cursor:pointer;
+  font-family: var(--Font-Noto);
+  font-weight: 500;
+}
+
+.text2:hover,.text2:focus{
+  background-color: var(--ColorDef4);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.classDisable{
+  display: none;
+}
+
+.primary_hover,.primary_hover2 {
+  width: 81px;
+height: 36px;
+display: grid;
+place-content: center;
+border-radius: 5px;
+background-color: var(--ColorPri1);
+color: var(--Col1-Color);
+box-shadow: 0 2px 3px #333333 20%;
+cursor: pointer ;
+font-family:  var(--Font-Noto);
+font-weight: 500;
+}
+
+.primary_hover2:hover{
+  background-color: var(--ColorPri2);
+}
+.secondary_hover,.secondary_hover2 {
+  width: 104px;
+height: 36px;
+display: grid;
+place-content: center;
+border-radius:5px;
+background-color: var(--ColorSec1);
+color: var(--Col1-Color);
+box-shadow: 0 2px 3px #333333 20%;
+cursor:pointer;
+font-family: var(--Font-Noto);
+font-weight: 500;
+}
+.secondary_hover2:hover{
+  background-color: var(--ColorSec2);
+}
+.danger_hover,.danger_hover2 {
+  width: 81px;
+height: 36px;
+display: grid;
+place-content: center;
+border-radius:5px;
+background-color: var(--ColorDng1);
+color: var(--Col1-Color);
+box-shadow: 0 2px 3px #333333 20%;
+cursor:pointer;
+font-family: var(--Font-Noto);
+font-weight: 500;
+}
+.danger_hover2:hover{
+  background-color: var(--ColorDng2);
+}
