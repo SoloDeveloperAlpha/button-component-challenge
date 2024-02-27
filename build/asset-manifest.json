@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/button-component-challenge/build/static/css/main.a038dfb3.css",
+    "main.js": "/button-component-challenge/build/static/js/main.7e661d04.js",
+    "index.html": "/button-component-challenge/build/index.html",
+    "main.a038dfb3.css.map": "/button-component-challenge/build/static/css/main.a038dfb3.css.map",
+    "main.7e661d04.js.map": "/button-component-challenge/build/static/js/main.7e661d04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a038dfb3.css",
+    "static/js/main.7e661d04.js"
+  ]
+}
